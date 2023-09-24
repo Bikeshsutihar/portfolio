@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    
+
+}
+
+nav h1{
+    font-family: sans-serif;
+    color: blueviolet;
+}
+
+ul li{
+    display: inline-block;
+    
+}
+
+ul li a{
+    color:blueviolet;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    transition: .3s ease;
+}
+ul li a:hover{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+}
+nav input{
+    padding: 10px;
+    color: blueviolet;
+    background-color: white;
+    border: 1.5px solid blueviolet;
+    border-radius: 5px;
+    outline: none;
+    transition: .3s ease;
+}
+nav input:hover{
+    background-color: rgb(198, 150, 243);
+    color: white;
+}
+
+
+
+/* ---------------Hero----------------- */
+
+/* ---------------Hero----------------- */
+
+/* ---------------Hero----------------- */
+
+/* ---------------Hero----------------- */
+
+#hero{
+    background-color: rgb(240, 239, 239);
+   
+}
+.rowhero{
+    display: flex;
+    justify-content: space-between;
+}
+.cardhero{
+    height: 90vh;
+    width: 50%;
+    background:transparent;
+    margin-top: 40px;
+
+
+    
+}
+.cardhero h1{
+    font-family: sans-serif;
+    padding: 20px;
+    padding-top: 150px;
+   
+    font-size: 40px;
+    color: blueviolet;
+
+}
+.cardhero p{
+    font-family: sans-serif;
+    padding: 20px;
+    color: blueviolet;
+}
+.cardhero .inm{
+    display: flex;
+     
+}
+.inm .inputexp{
+    margin: 20px;
+    
+}
+.inm .inputexp input{
+    padding: 15px;
+    width: 150px;
+    color: white;
+    background-color: blueviolet;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 550;
+    transition: .3s ease;
+}
+.inm .inputhr{
+    margin: 20px;
+}
+
+.inm .inputhr input{
+    padding: 15px;
+    width: 150px;
+    color: blueviolet;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid blueviolet;
+    border-left: 1px solid blueviolet;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 550;
+    transition: .3s ease;
+}
+.inm .inputexp input:hover{
+    background-color: transparent;
+    color: blueviolet;
+    border: none;
+    border-bottom: 2px solid blueviolet;
+    border-left: 1px solid blueviolet;
+    border-radius: 5px;
+}
+.inm .inputhr input:hover{
+    background-color: blueviolet;
+    color: white;
+
+
+}
+.cardhro{
+    height: 400px;
+    width: 500px;
+    
+    
+
+}
+.image{
+    background-color: blueviolet;
+    margin-top: 50px;
+    border-radius: 50px 200px 0;
+    
+}
+
+.image img{
+    z-index: 1;
+    margin-top: 100px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    
+  
+}
+/* --------------sechero--------------- */
+/* --------------sechero--------------- */
+
+/* --------------sechero--------------- */
+
+/* --------------sechero--------------- */
+
+#sechero{
+    background-color: rgb(230, 230, 230);
+}
+
+.rowcard{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.cardper{
+    min-height: 400px;
+    width: 40%;
+    background-color: white;
+    margin-top:10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    transition: .3s ease;
+}
+.cardper:hover{
+
+    box-shadow: 4px 4px 9px 6px rgb(173, 172, 173);
+    transform: translate3d(1.5px);
+}
+.cardper h1{
+    margin: 20px;
+    font-family: sans-serif;
+    
+}
+.cardper p{
+    font-family:sans-serif ;
+    margin: 20px;
+}
+.cardper .btn{
+    margin: 20px;
+}
+.btn input{
+    padding: 10px;
+    width: 150px;
+    color: blueviolet;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid blueviolet;
+    border-right: 1px solid blueviolet;
+    outline: none;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+.btn input:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.mainrow{
+    width: 200%;
+    
+}
+
+/* 1111111111111111111111111111111111 */
+/* 1111111111111111111111111111111111 */
+
+/* 1111111111111111111111111111111111 */
+/* 1111111111111111111111111111111111 */
+/* 1111111111111111111111111111111111 */
+/* 1111111111111111111111111111111111 */
+/* 1111111111111111111111111111111111 */
+/* 1111111111111111111111111111111111 */
+
+.rowperper{
+    width: 100%;
+}
+.cardper1{
+    margin: 10px;
+    height: 70px;
+    width: 25%;
+    background-color: white;
+    border-radius: 5px;
+    transition: .3s ease;
+    
+    
+    
+}
+.cardper1 .pr p{
+    margin: 10px;
+}
+.pr{
+    display: flex;
+}
+    
+.cardper1 .per1{
+    margin-top: 10px;
+    height: 5px;
+    width: 90%;
+    background-color: rgb(235, 233, 233);
+    border-radius: 10px;
+    
+}
+.cardper1:hover{
+
+    box-shadow: 4px 4px 9px 6px rgb(196, 195, 195);
+}
+.cardper1 .per1 .iper1{
+    height: 5px;
+    width: 90%;
+    background-color: greenyellow;
+}
+/* 22222222222222222222222222222222222222222222 */
+/* 22222222222222222222222222222222222222222222 */
+
+/* 22222222222222222222222222222222222222222222 */
+
+/* 22222222222222222222222222222222222222222222 */
+
+
+.cardper2{
+    margin: 10px;
+    height: 70px;
+    width: 25%;
+    background-color: white;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+.cardper2:hover{
+    box-shadow: 4px 4px 9px 4px rgb(194, 194, 194);
+}
+.cardper2 .pr2{
+    display: flex;
+    
+}
+.pr2 p{
+    margin: 10px;
+}
+
+.per2{
+    height: 4px;
+    width: 80%;
+    background-color: rgb(226, 223, 223);
+    border-radius: 10px;
+}
+.iper2{
+    height: 4px;
+    width: 80%;
+    background-color: blue;
+}
+/* 3333333333333333333333333333333333333333333333333333 
+*/
+/* 3333333333333333333333333333333333333333333333333333 */
+
+/* 3333333333333333333333333333333333333333333333333333 */
+
+/* 3333333333333333333333333333333333333333333333333333 */
+
+
+.cardper3{
+    margin: 10px;
+    height: 70px;
+    width: 25%;
+    background-color: white;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+.cardper3:hover{
+    box-shadow: 4px 4px 9px 4px rgb(194, 194, 194);
+}
+.cardper3 .pr3{
+    display: flex;
+    
+}
+.pr3 p{
+    margin: 10px;
+}
+
+.per3{
+    height: 4px;
+    width: 80%;
+    background-color: rgb(226, 223, 223);
+    border-radius: 10px;
+}
+.iper3{
+    height: 4px;
+    width: 20%;
+    background-color: rgb(255, 0, 43);
+}
+
+/* -----------service---------- */
+/* :root::after{
+    content: " ";
+    --primary-color
+} */
+
+.srvh1 h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 15px;
+    font-family: sans-serif;
+    color: blueviolet;
+}
+
+.rowsrv{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.cardsrv{
+    margin: 10px;
+    height: 450px;
+    width: 30%;
+    background-color: antiquewhite;
+   
+}.imagesrv img{
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    width: 100%;
+}
+
+
+.cardsrv{
+    border-radius: 10px;
+}
+.cardsrv h1{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: sans-serif;
+    /* color: blueviolet; */
+}
+.cardsrv p{
+    margin: 10px;
+    font-family: sans-serif;
+}
+footer{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+}
+.rowfoot{
+    display: flex;
+    justify-content: center;
+    
+}
+.footcard{
+    height: 100px;
+    width: 25%;
+    background-color: black;
+    border-radius: 10px;
+    margin: 10px;
+   
+  
+}
+
+.footcard a{
+    margin: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.footcard p{
+    margin: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+/* ------down------- */
+#down{
+    background-color: rgb(34, 33, 33);
+    height: 40px;
+    width: 100%;
+}
+.rowd .fd{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 40px;
+    align-items: center;
+}
+.facebook i{
+    font-size: 30px;
+}
